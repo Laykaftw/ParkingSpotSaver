@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Note Input -->
+    <EditText
+        android:id="@+id/etNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a note for this location" />
+
+    <!-- Save Location Button -->
+    <Button
+        android:id="@+id/btnSaveLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Location"
+        android:layout_marginTop="8dp" />
+
+    <!-- Spinner for Saved Locations -->
+    <Spinner
+        android:id="@+id/spinnerLocations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/select_location_prompt"
+        android:layout_marginTop="16dp" />
+
+    <!-- Retrieve Location Button -->
+    <Button
+        android:id="@+id/btnRetrieveLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Selected Location"
+        android:layout_marginTop="8dp" />
+
+    <!-- Delete Location Button -->
+    <Button
+        android:id="@+id/btnDeleteLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Selected Location"
+        android:layout_marginTop="8dp" />
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
